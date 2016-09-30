@@ -1,6 +1,8 @@
 Mailhog
 =======
 
+[![Build Status](https://travis-ci.org/jebovic/ansible-mailhog.svg?branch=master)](https://travis-ci.org/jebovic/ansible-mailhog)
+
 Download, install and configure Mailhog, a great mail catcher
 
 Role Variables
