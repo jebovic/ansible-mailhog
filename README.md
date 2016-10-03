@@ -1,7 +1,7 @@
 Mailhog
 =======
 
-[![Build Status](https://travis-ci.org/jebovic/ansible-mailhog.svg?branch=master)](https://travis-ci.org/jebovic/ansible-mailhog)
+[![Build Status](https://travis-ci.org/jebovic/ansible-mailhog.svg?branch=master)](https://travis-ci.org/jebovic/ansible-mailhog) [![Ansible Galaxy](https://img.shields.io/badge/galaxy-jebovic.mailhog-blue.svg?style=flat)](https://galaxy.ansible.com/jebovic/mailhog)
 
 Download, install and configure Mailhog, a great mail catcher
 
