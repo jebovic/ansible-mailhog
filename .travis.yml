@@ -27,7 +27,7 @@ script:
     && (echo 'Idempotence test: pass' && exit 0)
     || (echo 'Idempotence test: fail' && exit 1)
   # test role tasks
-  - docker exec "$(cat ${container_id})" env TERM=xterm /usr/local/bin/mailhog -api-bind-addr :8025 -ui-bind-addr :8025
+  - docker exec "$(cat ${container_id})" env TERM=xterm /usr/local/bin/mailhog -api-bind-addr :8025 -ui-bind-addr :8025 &
   - curl -u haproxy_user:haproxy http://localhost:8025
 
 notifications:
