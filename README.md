@@ -8,7 +8,7 @@ Download, install and configure Mailhog, a great mail catcher
 Role Variables
 --------------
 
-```
+```yaml
 # Mailhog installation configuration
 mailhog_install_dir: /usr/local/bin
 mailhog_binary_url: https://github.com/mailhog/MailHog/releases/download/v0.2.0/MailHog_linux_amd64
@@ -21,10 +21,10 @@ mailhog_mhsendmail_path: "{{ mailhog_install_dir }}/mhsendmail"
 Example Playbook
 ----------------
 
-```
-    - hosts: servers
-      roles:
-         - { role: jebovic.mailhog }
+```yaml
+- hosts: servers
+  roles:
+     - { role: jebovic.mailhog }
 ```
 
 License
