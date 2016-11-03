@@ -5,6 +5,8 @@ Mailhog
 
 Download, install and configure Mailhog, a great mail catcher
 
+This role is a part of my [OPS project](https://github.com/jebovic/ops), follow this link to see it in action. OPS provides a lot of stuff, like a vagrant file for development VMs, playbooks for roles orchestration, inventory files, examples for roles configuration, ansible configuration file, and many more.
+
 Role Variables
 --------------
 
